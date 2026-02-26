@@ -617,6 +617,37 @@
       display: none;
     }
 
+    
+         /* Contact Section */
+    .contact-box {
+      margin: 15px auto;
+      border: 3px solid #333;
+      border-radius: 10px;
+      max-width: 600px;
+      width: 97%;
+      text-align: center;
+    }
+    .contact-box h3{
+      margin: 5px 0px 0px;
+    }
+    .contact-box h4 {
+      margin: 4px 0px;
+    }
+    
+    .contact-info{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 0px 0px 10px 0px;
+    }
+
+    .contact-box a {
+      color: #415279;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+
     @media print {
       body {
         background: white
@@ -651,7 +682,7 @@
 <body>
   <header>
     <div class="bar">
-      <h1>CV / Resume Builder <br> by HB </h1>
+      <h1>CV / Resume Builder<br> by HB </h1>
       <div class="actions">
         <select id="cvCategory" title="Choose CV style">
           <option value="modern" selected>Modern</option>
@@ -703,6 +734,20 @@
       <h2>Experience</h2>
       <div id="expList" class="repeater"></div>
       <div class="rep-foot"><button id="addExp">+ Add Experience</button></div>
+
+           <!-- Contact Section -->
+    <div class="contact-box">
+      <h3> Contact Us </h3>
+      <h4>Available for all your web design deals 🤝 </h4> 
+      
+      <div class="contact-info"> 
+    <a href="https://wa.me/237654177854"><i class="fab fa-whatsapp"></i> 
+        654-177-854</a> | 
+      <a href="mailto:henepaph23@gmail.com">HB@gmail.com</a>
+    </div>
+    </div>
+
+
     </section>
 
     <!-- Preview -->
